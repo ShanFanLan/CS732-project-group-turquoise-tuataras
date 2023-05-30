@@ -1,0 +1,25 @@
+.productContainer {
+    position: relative;
+    top:30px;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    flex-direction: row;
+    gap: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #34416a;
+    background-color: #ffffff;
+}
+
+.nosavedrecipe{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: calc(50% - 40px)
+}
+

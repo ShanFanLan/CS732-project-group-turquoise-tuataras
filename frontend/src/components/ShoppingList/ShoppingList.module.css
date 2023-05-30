@@ -1,0 +1,45 @@
+/* *{
+    border: 1px solid black
+} */
+
+.custom_table {
+    width: 80%;
+    height: 100%;
+    margin: auto auto 50px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    border: lightgray 2px solid;
+    overflow: hidden;
+}
+
+.shopping_list_title {
+    display: block;
+    justify-content: center;
+    justify-items: center;
+    gap: 10px;
+
+}
+
+.shopping_list_img {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.ShoppinListButtonTable {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 10px auto 10px auto;
+
+}
+
+.shopping_list_date {
+    color: #1677ff;
+    font-size: large;
+    font-weight: normal;
+    margin-top: 3px;
+}
+
